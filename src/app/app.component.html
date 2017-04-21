@@ -1,9 +1,47 @@
-<h1>
-  {{title}}
-</h1>
+<app-web-header></app-web-header>
+<div class="container-fluid">
+	<app-sidebar></app-sidebar>
+  
+    <div class="col-sm-2">	
 
-<app-dropdown></app-dropdown>
+		<nav class=" hidden-xs-down bg-faded">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+	              	<a class="nav-link" href="#">
+	              		Product 1
+	              	</a>
+            </li>
+            <li class="nav-item">
+              	<a class="nav-link" href="#">
+              		Product 2
+              	</a>
+            </li>
+            <li class="nav-item">
+              	<a class="nav-link" href="#">
+              		Product 3
+              	</a>
+            </li>
+            <li class="nav-item">
+              	<a class="nav-link" href="#">
+              		Product 4
+              	</a>
+            </li>
+            <li class="nav-item">
+              	<a class="nav-link" href="#">
+              		Product 5
+              	</a>
+            </li>
+          </ul>
+
+          
+        </nav>
+    </div>    
+	<router-outlet></router-outlet>
+    
+</div>    
 
 
 
-<router-outlet></router-outlet>
+
+
+
